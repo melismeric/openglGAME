@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picopng.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_renderer.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_generator.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movement_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picopng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\freetype\src\base\ftbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\freetype\src\base\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\container.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="movement_map.txt">
+      <Filter>Resource Files\Source Files</Filter>
+    </Text>
+    <Text Include="contour_map.txt">
+      <Filter>Resource Files\Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6.1.cubemaps.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="6.1.cubemaps.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="6.1.skybox.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="6.1.skybox.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="2.2.basic_lighting.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="2.2.basic_lighting.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="2.2.lamp.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="2.2.lamp.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.shadow_mapping.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.shadow_mapping.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.shadow_mapping_depth.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.shadow_mapping_depth.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.debug_quad.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.1.3.debug_quad_depth.fs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="shader-text.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="shader-text.frag">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="particle.vs">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="particle.frag">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
