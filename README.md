@@ -1,6 +1,8 @@
 # openglGAME
 labyrinth game implemented with opengl
 
+![](OpenGL%20Labyrinth%20.png)
+
 OpenGL is an API for rendering 2D and 3D vector graphics. 
 The game is a labyrinth game player's point of view is the camera. 
 The environment consists of 3d cubes that together form a maze. There is a key for the escape door in the labyrinth. 
